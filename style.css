@@ -1,0 +1,85 @@
+.container {
+	background-image: url(http://ayay.co.uk/backgrounds/weather/clouds/blue-sea-horizon.jpg);
+	background-repeat: repeat-x;
+}
+
+h1 {
+	color: white;
+}
+
+#location {
+	width: 250px;
+	margin: 12px;
+	color: grey;
+	font-weight: bold;
+	font-size: 15px;
+    background-color: white;
+    opacity: .5;
+    color: #393939 !important;
+    height: 45px;
+    text-indent: 18px;
+    padding: 3px 38px 5px 0 !important;
+}
+
+.location {
+	font-size: 20px;
+	color: white;
+	margin: 0 auto;
+}
+
+.obtime {
+	font-size: 10px;
+	color: grey;
+	font-style: italic;
+}
+
+img {
+	width: 90px;
+	height: 90px;
+}
+
+.temperature {
+	font-size: 15px;
+	color: white;
+}
+
+.day {
+	display: inline-block;
+}
+
+.dayhumidity,.daywindDegree {
+	color: #fff;
+}
+
+.forecastTitle {
+	text-align: center;
+	color:grey;
+	font-style: italic;
+	font-weight: 15px;
+}
+
+.day1Img,.day2Img,.day3Img {
+	width: 30px;
+	height: 30px;
+}
+
+.day1,.day1High,.day1Low {
+	color:white;
+}
+
+.day2,.day2High,.day2Low {
+	color:white;
+}
+
+.day3,.day3High,.day3Low {
+	color:white;
+}
+
+
+
+
+
+
+
+
+

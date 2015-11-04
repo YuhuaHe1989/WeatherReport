@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Weather Report</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="container">
+  
+    <div class="row">
+      <div class="col-md-8">
+        <h1>Weather Report</h1>
+      </div>
+      <div class="col-md-4">
+        <input type="text" id="location">
+        <button class="btn btn-default" id="search">Search</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 location"></div>
+      <div class="col-md-6 forecast">
+        <div class="col-md-4 forecastTitle">Day</div>
+        <div class="col-md-4 forecastTitle">High Temperature</div>
+        <div class="col-md-4 forecastTitle">Low Temperature</div>
+      </div>
+    <div class="row">
+      <div class="col-md-12 obtime"></div>
+    </div>
+    <div class ="row">
+      <div class="day col-md-3">
+          <div class="day img"></div>
+          <div class="day temperature"></div>
+      </div>
+      <div class="col-md-2"></div>
+      <div class="col-md-1">
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6" id="day1Img"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-6"></div>
+          <div class="col-md-6" id="day2Img"></div>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4 day1"></div>
+          <div class="col-md-4 day1High"></div>
+          <div class="col-md-4 day1Low"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 day2"></div>
+          <div class="col-md-4 day2High"></div>
+          <div class="col-md-4 day2Low"></div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-6 dayhumidity title">Humidity:</div>
+            <div class="col-md-6 dayhumidity humidity"></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="col-md-6 daywindDegree title">WindDegrees:</div>
+            <div class="col-md-6 daywindDegree windDegree"></div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3">
+        <div class="row">
+          <div class="col-md-10"></div>
+          <div class="col-md-2" id="day3Img"></div>
+        </div>
+      </div>
+      
+
+      <div class="col-md-6">
+        <div class="row">
+          <div class="col-md-4 day3"></div>
+          <div class="col-md-4 day3High"></div>
+          <div class="col-md-4 day3Low"></div>
+        </div>
+      </div>
+    </div>
+	</div>
+	
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>
