@@ -13,12 +13,12 @@ h1 {
 	color: grey;
 	font-weight: bold;
 	font-size: 15px;
-    background-color: white;
-    opacity: .5;
-    color: #393939 !important;
-    height: 45px;
-    text-indent: 18px;
-    padding: 3px 38px 5px 0 !important;
+  background-color: white;
+  opacity: .5;
+  color: #393939 !important;
+  height: 45px;
+  text-indent: 18px;
+  padding: 3px 38px 5px 0 !important;
 }
 
 .location {
@@ -74,12 +74,3 @@ img {
 .day3,.day3High,.day3Low {
 	color:white;
 }
-
-
-
-
-
-
-
-
-
